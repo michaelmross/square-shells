@@ -1,0 +1,90 @@
+{
+  "checkpoint_version": 1,
+  "completed": true,
+  "history_complete": false,
+  "last_completed_n": 1000000,
+  "legacy_resume_n": 247000,
+  "orders": [
+    3,
+    5,
+    7,
+    9,
+    11
+  ],
+  "rmax": 12,
+  "saved_at_local": "2026-08-31 05:08:52",
+  "scan_start": 10001,
+  "stop_requested": 1000000,
+  "trackers": {
+    "11": {
+      "best_failures": 0,
+      "best_r_changes": 0,
+      "first_best_failure": null,
+      "first_fixed_failure": null,
+      "fixed_failures": 0,
+      "max_best_r": 2,
+      "previous_best_r": 2,
+      "worst_best_n": 998837,
+      "worst_best_r": 2,
+      "worst_best_ratio": 0.9282415449167382,
+      "worst_fixed_n": 998837,
+      "worst_fixed_ratio": 0.9323418135291344
+    },
+    "3": {
+      "best_failures": 753000,
+      "best_r_changes": 3085,
+      "first_best_failure": 24207,
+      "first_fixed_failure": 24207,
+      "fixed_failures": 753000,
+      "max_best_r": 4,
+      "previous_best_r": 4,
+      "worst_best_n": 996986,
+      "worst_best_r": 4,
+      "worst_best_ratio": 1.063282433253827,
+      "worst_fixed_n": 997280,
+      "worst_fixed_ratio": 1.096244618696187
+    },
+    "5": {
+      "best_failures": 0,
+      "best_r_changes": 4077,
+      "first_best_failure": null,
+      "first_fixed_failure": null,
+      "fixed_failures": 0,
+      "max_best_r": 3,
+      "previous_best_r": 3,
+      "worst_best_n": 983982,
+      "worst_best_r": 3,
+      "worst_best_ratio": 0.947919237005013,
+      "worst_fixed_n": 983982,
+      "worst_fixed_ratio": 0.947919237005013
+    },
+    "7": {
+      "best_failures": 0,
+      "best_r_changes": 0,
+      "first_best_failure": null,
+      "first_fixed_failure": null,
+      "fixed_failures": 0,
+      "max_best_r": 2,
+      "previous_best_r": 2,
+      "worst_best_n": 999857,
+      "worst_best_r": 2,
+      "worst_best_ratio": 0.9284417671727057,
+      "worst_fixed_n": 983982,
+      "worst_fixed_ratio": 0.9379200316382094
+    },
+    "9": {
+      "best_failures": 0,
+      "best_r_changes": 0,
+      "first_best_failure": null,
+      "first_fixed_failure": null,
+      "fixed_failures": 0,
+      "max_best_r": 2,
+      "previous_best_r": 2,
+      "worst_best_n": 998837,
+      "worst_best_r": 2,
+      "worst_best_ratio": 0.9282415449167382,
+      "worst_fixed_n": 983982,
+      "worst_fixed_ratio": 0.9342560692731733
+    }
+  }
+}
