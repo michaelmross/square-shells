@@ -362,8 +362,8 @@ python code/overnight_shifted_hierarchy_v3.py \
 Computes the unrestricted reciprocal-prime elementary symmetric sums
 
 ```math
-e_j=\sum_{p_1<\cdots<p_j\le n}\frac{1}{p_1\cdots p_j}
-
+e_j=\sum_{p_1 \lt \cdots \lt p_j \le n}\frac{1}{p_1\cdots p_j}
+```
 
 and searches $(K,r)$ for the smallest model value
 
