@@ -21,6 +21,7 @@ This repository records the computational phase of an investigation into how muc
     README.md               this file
     code/                   all campaign scripts (inventory below)
     results/                all data tiers and campaign reports
+    figures/                all charts
 ```
 
 ## 1. Multiplication depth and the overlap hierarchy
