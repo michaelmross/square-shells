@@ -18,37 +18,10 @@ This repository records the computational phase of an investigation into how muc
 ## Repository layout
 
 ```text
-square-shells/
-├── code/
-│   ├── multiplication_coverage.py
-│   ├── multiplication_overlap_hierarchy.py
-│   ├── multiplication_overlap_hierarchy_v2.py
-│   ├── multiplication_majorant_lp.py
-│   ├── overnight_shifted_hierarchy.py
-│   ├── overnight_shifted_hierarchy_v2.py
-│   ├── overnight_shifted_hierarchy_v3.py
-│   ├── main_term_optimizer.py
-│   ├── parity_diagnostic.py
-│   ├── phase_scramble_test_v2.py
-│   ├── nearby_square_ensemble.py
-│   ├── modulus_band_suppression.py
-│   └── high_product_collision_test.py
-└── results/
-    ├── shell_summary.csv
-    ├── overlap_summary.csv
-    ├── depth_histogram.csv
-    ├── overnight_hierarchy.csv
-    ├── overnight_hierarchy_transitions.csv
-    ├── overnight_hierarchy.checkpoint.json
-    ├── parity_diagnostic_summary.csv
-    ├── parity_diagnostic_bands.csv
-    ├── phase_scramble_threeway_100.csv
-    ├── nearby_square_ensemble_41.csv
-    ├── modulus_band_summary_100.csv
-    ├── high_product_trials_100.csv
-    ├── high_product_bands_100.csv
-    ├── high_product_summary_100.csv
-    └── band_stats.zip
+    README.md               this file
+    code/                   all campaign scripts (inventory below)
+    results/                all data tiers and campaign reports
+    figures/                all charts, including superseded ones
 ```
 
 ## 1. Multiplication depth and the overlap hierarchy
