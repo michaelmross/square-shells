@@ -12,7 +12,7 @@ where
     E_j = sum_{3 <= p1 < ... < pj <= n, p1...pj < (n+1)^2}
               1/(p1...pj).
 
-This is the K=7, r=2 member of the shifted-majorant hierarchy.
+This is the K=9, r=2 member of the shifted-majorant hierarchy.
 
 Method
 ------
