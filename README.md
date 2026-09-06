@@ -1,5 +1,7 @@
 # Square Shells
 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22541255-blue.svg)](https://doi.org/10.5281/zenodo.22541255)
+
 Computational experiments on **deterministic multiplication coverage** in the square shell
 
 ```math
