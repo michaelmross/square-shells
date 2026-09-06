@@ -19,7 +19,7 @@ Two closely related row systems are used in the repository:
 
 In either description, an odd shell position missed by every irreducible row is prime.
 
-> **Status.** The repository contains exact finite-shell computations, exact-prime input calculations, and high-accuracy numerical models. It does **not** prove a new prime-in-short-interval theorem. In particular, the large-$n$ crossing calculations for the product-truncated geometric main terms are numerical experiments; where a PNT tail is used, primes above a finite cutoff are replaced by the density $dt/\log t$.
+> **Status.** The repository contains exact finite-shell computations, exact-prime input calculations, and high-accuracy numerical models. It does **not** prove a new prime-in-short-interval theorem. In particular, the large-n crossing calculations for the product-truncated geometric main terms are numerical experiments. Where a PNT tail is used, primes above a finite cutoff are replaced by the density $dt/\log t$.
 
 ## Repository layout
 
