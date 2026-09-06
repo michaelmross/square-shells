@@ -1,4 +1,4 @@
-# Square Shells
+# Multiplication Geometry in Square Shells
 
 Computational experiments on **deterministic multiplication coverage** in the square shell n² < m < (n+1)². This repository contains the complete code 
 and data for the paper [*Multiplication Geometry in Square Shells: Finite Coverage, Truncated Legendre Sums, and the Parity Barrier*](https://zenodo.org/records/22553217) (Ross, M. M., 2026).
