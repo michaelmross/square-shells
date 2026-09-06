@@ -65,8 +65,7 @@ is a deterministic lower bound on the number of uncovered positions ("certified 
 The exact number of holes is
 
 $$
-H_{\mathrm{exact}}
-=
+H_{\mathrm{exact}} =
 \left\lvert\{m:w(m)=0\}\right\rvert,
 $$
 
@@ -75,8 +74,7 @@ which is also the exact number of primes in the shell.
 The loss from truncating inclusion-exclusion at odd order $K$ is itself exact:
 
 $$
-U_K-|C|
-=
+U_K-|C| =
 \sum_{w\ge K+1}
 \left\lvert\{m:w(m)=w\}\right\rvert
 \binom{w-1}{K}.
@@ -89,8 +87,7 @@ So the finite-depth error is completely accounted for by high-multiplicity colli
 The experiments also use a family of pointwise coverage majorants
 
 $$
-P_{K,r}(w)
-=
+P_{K,r}(w) =
 1+
 \frac{(w-1)\prod_{j=0}^{K-2}(w-r-j)}
      {\prod_{j=0}^{K-2}(r+j)},
@@ -107,16 +104,14 @@ $$
 while $P_{K,r}(0)=0$. Expanding in the binomial basis,
 
 $$
-P_{K,r}(w)
-=
+P_{K,r}(w) =
 \sum_{j=1}^K c_j\binom{w}{j},
 $$
 
 gives a deterministic coverage bound
 
 $$
-L_{K,r}
-=
+L_{K,r} =
 \sum_{j=1}^K c_jS_j.
 $$
 
@@ -131,16 +126,14 @@ The ordinary Bonferroni bound is $r=2$.
 Two low-order majorants found computationally are
 
 $$
-L_{3,3}
-=
+L_{3,3} =
 S_1-\frac56S_2+\frac12S_3,
 $$
 
 and
 
 $$
-L_{5,3}
-=
+L_{5,3} =
 S_1-\frac{14}{15}S_2+\frac45S_3-\frac35S_4+\frac13S_5.
 $$
 
@@ -163,8 +156,7 @@ $$
 This motivates the product-truncated reciprocal-prime sums
 
 $$
-E_j(n)
-=
+E_j(n) =
 \sum_{\substack{
 3\le p_1<\cdots<p_j\le n\\
 p_1\cdots p_j<(n+1)^2}}
@@ -174,16 +166,14 @@ $$
 For a majorant with coefficients $c_j$, define the geometric main term
 
 $$
-M^{\mathrm{geom}}_{K,r}(n)
-=
+M^{\mathrm{geom}}_{K,r}(n) =
 \sum_{j=1}^K c_jE_j(n).
 $$
 
 For the quintic shifted majorant,
 
 $$
-M^{\mathrm{geom}}_{5,3}
-=
+M^{\mathrm{geom}}_{5,3} =
 E_1-\frac{14}{15}E_2+\frac45E_3-\frac35E_4+\frac13E_5.
 $$
 
@@ -392,8 +382,7 @@ This is an **exact-prime-input** check, but it is still not an exact evaluation 
 For the ordinary seventh-order geometric Bonferroni main term
 
 $$
-M^{\mathrm{geom}}_{7,2}
-=
+M^{\mathrm{geom}}_{7,2} =
 E_1-E_2+E_3-E_4+E_5-E_6+E_7,
 $$
 
@@ -408,8 +397,7 @@ $$
 For
 
 $$
-M^{\mathrm{geom}}_{9,2}
-=
+M^{\mathrm{geom}}_{9,2} =
 E_1-E_2+E_3-E_4+E_5-E_6+E_7-E_8+E_9,
 $$
 
@@ -428,8 +416,7 @@ The dramatic movement of the numerical crossing as $K$ increases is one of the m
 For an initial odd window $J$ of a square shell, this script forms a dyadic Liouville decomposition
 
 $$
-T(D)
-=
+T(D) =
 \sum_{\substack{D\le d<2D\\P^+(d)\le n}}
 \mu(d)^2
 \sum_{q:\,dq\in J}\lambda(q).
@@ -478,10 +465,8 @@ Base deterministic coverage calculation.
 - verifies the exact identity
 
 $$
-\text{holes}
-=
-\text{collision excess}
--
+\text{holes} =
+\text{collision excess} -
 \text{edge surplus}.
 $$
 
@@ -784,11 +769,11 @@ A few distinctions are important:
 - `exact_holes` is the number of uncovered odd positions in a **single square shell**, not $\pi(n)$.
 - For example, `exact_holes = 72413` at $n=10^6$ means there are 72,413 primes in
 
-$$
-10^{12}<m<(1{,}000{,}001)^2,
-$$
+  $$
+  10^{12}<m<(1{,}000{,}001)^2,
+  $$
 
-not that $\pi(10^6)=72413$.
+  not that $\pi(10^6)=72413$.
 
 - A finite-$K$ certificate can fail even when a window or shell contains many primes. Failure means that particular majorant did not certify a hole.
 - The randomized phase experiments are controls, not models of prime distribution.
