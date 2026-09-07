@@ -118,7 +118,7 @@ $$
 A shell is certified to contain a hole whenever
 
 $$
-L_{K,r}<n.
+L_{K,r} < n.
 $$
 
 The ordinary Bonferroni bound is $r=2$.
@@ -158,7 +158,7 @@ This motivates the product-truncated reciprocal-prime sums
 $$
 E_j(n) =
 \sum_{\substack{
-3\le p_1<\cdots<p_j\le n\\
+3\le p_1 < \cdots < p_j\le n\\
 p_1\cdots p_j<(n+1)^2}}
 \frac1{p_1\cdots p_j}.
 $$
@@ -333,8 +333,8 @@ For the genuine worst window:
 | product range | weighted actual intersection mass |
 |---|---:|
 | $d\le n$ | +399.8 |
-| $n<d\le n^2$ | -18.1333 |
-| $n^2<d<(n+1)^2$ | +8.6 |
+| $n < d\le n^2$ | -18.1333 |
+| $n^2 < d < (n+1)^2$ | +8.6 |
 | $d\ge(n+1)^2$ | 0 |
 
 This experiment led directly to the product-truncated geometric main term.
@@ -770,7 +770,7 @@ A few distinctions are important:
 - For example, `exact_holes = 72413` at $n=10^6$ means there are 72,413 primes in
 
   $$
-  10^{12}<m<(1{,}000{,}001)^2,
+  10^{12} < m < (1{,}000{,}001)^2,
   $$
 
   not that $\pi(10^6)=72413$.
