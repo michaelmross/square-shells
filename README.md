@@ -6,7 +6,7 @@ $$
 n^2 < m < (n+1)^2.
 $$
 
-This repository contains the code, data, and figures supporting the paper [*Multiplication Geometry in Square Shells: Finite Coverage, Truncated Legendre Sums, and the Parity Barrier*](https://zenodo.org/records/22553217) (Ross, M. M., 2026).
+This [repository](https://github.com/michaelmross/square-shells) contains the code, data, and figures supporting the paper [*Multiplication Geometry in Square Shells: Finite Coverage, Truncated Legendre Sums, and the Parity Barrier*](https://zenodo.org/records/22553217) (Ross, M. M., 2026).
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22541255-blue.svg)](https://doi.org/10.5281/zenodo.22541255)
 
